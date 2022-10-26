@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family:Helvetica, sans-serif; */
+    font-family: 'Poppins';
+}
+#Header {
+    background-color: #1f2937;
+    width: 100%;
+    padding:20px 0px 20px 0px
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+    margin: 0px 100px;
+}
+.navhead{
+font-size: 28px;
+color: #f9faf8;
+
+}
+.navlinks{
+    /* left:100px */
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    
+    
+}
+a:-webkit-any-link{
+    text-decoration: none;
+    color: white;
+}
+
+
+#h2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;  
+
+}
+.awesome h1{
+    font-size: 48px;
+    color: #f9faf8;
+    margin-left: 100px;
+
+}
+
+.awesome h2{
+    margin-top: 20px;
+    font-size: 16px;
+    color: #e5e7eb;
+    margin-left: 100px;
+
+}
+#h2 img{
+    margin-top: 20px;
+    margin-right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    width:360px;
+    height: 250px;
+    border: 5px solid #71857d;
+    border-radius: 20px;
+    margin-bottom: 80px;
+    
+
+}
+
+#h2 img:hover{
+
+    border: 5px solid #f9faf8;
+    transform: translate(-2px, -5px);
+    
+}
+
+.button{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    background-color: #71857d;
+    border-radius: 10px;
+    color: white;
+    margin-top: 20px;
+    border: 5px;
+    color: white;
+    margin-left: 100px; */
+    background-color: #3882f6;
+    border-color: #3882f6;
+    border-radius: 5px;
+    padding: 5px 30px;
+    margin: 5px 0px 5px 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 100px;
+    width: 60px;
+    margin-top: 30px;
+    opacity: .5;
+    transition: all .2s ease-in-out;
+    
+}
+.button:hover{
+    transform: scale(1.1); 
+    opacity: 1;
+
+}
+
+.navlinks img{
+    width: 40px;
+    height: 40px;
+    animation: rotation 8s infinite linear;
+    border-radius:50%;
+    background-color:#ffffff
+    
+ }   
+
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  .navlinks img:hover{
+    background-color: #6F050A;
+    border-radius: 50%;
+    animation: rotation 1s infinite linear;
+  }
+
+
+  .navlinks a:hover{
+    text-decoration:underline;;
+    color: #ffffff; 
+  }
+
+
+
+
+
+
+
+
+
+
+
+  #info{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 36px ;
+    font-weight: bold;
+  }
+
+  #info img{
+    width: 85%;
+    height: 85%;
+    
+  }
+  
+  #animepics{
+    margin: 30px 100px 30px 100px;
+    
+    text-align: center;
+    
+  }
+  ul{
+    list-style-type: none;
+    column-count: 4;
+    font-size: medium;    
+    transition: all .2s ease-in-out;
+    
+    
+  }
+  li img{
+    border-radius: 15px;
+  }
+  
+ li:hover{
+    display: block;
+    transform: scale(1.1); 
+    
+  }
+  
+
+
+
+  #main{
+    margin-top: 80px;
+    text-align: center;
+    
+    background-color: #5f718b7e;
+    
+  }
+
+  .quote{
+    margin: 20px 150px 20px 150px;
+    font-size: 24px;
+    font-style: italic;
+  }
+
+  .madra{
+    font-weight: bolder;
+    
+  }
+
+  .action{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3E4E56;
+ padding: 50px 100px;
+    color: #e5e7eb;
+    border: solid #2c3a4e;
+    border-radius: 10px;
+    margin: 100px ;
+  }
+
+  #action-time{
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+  }
+
+  #actiom-signup{
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+  }
+  button{
+    background-color: #9eb0c8;
+    border-radius: 5px;
+    padding: 5px 30px;
+    margin: 5px 0px 5px 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    opacity: .5;
+    transition: all .2s ease-in-out;
+  }
+  button:hover{
+    transform: scale(1.1); 
+    opacity: 1;
+  }
+  #footer{
+    background-color: #1D252D;
+    text-align: center;
+    color: white;
+  }
